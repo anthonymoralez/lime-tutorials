@@ -19,14 +19,14 @@ After downloading the package simply install it like any other program and start
 ### Step 2: Create a new map
 
 Selecting File >> New? will bring up the following window:
-[[http://lime.outlawgametools.com/tutorials/0/images/newMap.jpg|alt=New Map]]
+![New Map](http://lime.outlawgametools.com/tutorials/0/images/newMap.jpg)
 
 Leave the Orientation as Orthogonal, while setting the Map Size to Width 15 and Height 10 and the Tile Size to Width 32 and Height 32.
 Orthogonal maps are the easiest to create and are used for plenty of game types to keep you occupied at present. The Tile Size is measured in pixels while the Map Size is measured in tiles, so we are creating a map that is 480 wide pixels and 320 pixels high, one standard iPhone screen in landscape mode.
 
 After clicking OK you should find your screen now looks something like this:
 
-[[http://lime.outlawgametools.com/tutorials/0/images/emptyMap.jpg|alt=Empty Map]
+![Empty Map](http://lime.outlawgametools.com/tutorials/0/images/emptyMap.jpg)
 
 ### Step 3: Add a tileset
 
@@ -36,22 +36,23 @@ To get you started, here is a sample tileset provided by Kevin Hansen for use in
 
 To add one, simply select Map >> New Tileset? to bring up the following window:
 
-[[http://lime.outlawgametools.com/tutorials/0/images/newTileset.jpg|alt=New Tileset]]
+![New Tileset](http://lime.outlawgametools.com/tutorials/0/images/newTileset.jpg)
+
 Now hit Browse? and select that file. Once selected make sure Tile Width and Tile Height are both 32 (measured in pixels) and both Margin and Spacing is set to 0. Now just hit the OK button.
 When you have done this you will notice you have a new tileset located in the bottom right of Tiled.
 
-[[http://lime.outlawgametools.com/tutorials/0/images/tileset.jpg|alt=Tileset in Tiled]]
+![Tileset in Tiled](http://lime.outlawgametools.com/tutorials/0/images/tileset.jpg)
 
 ### Step 4: Add your tiles
 
 With your tileset loaded into Tiled your next step is to actually add your tiles, you do this by drawing them in. You have two brush types at your disposal, Stamp and Fill, for now simply leave it on Stamp like in the picture below.
 
-[[http://lime.outlawgametools.com/tutorials/0/images/brushes.jpg|alt=Brushes]]
+![Brushes](http://lime.outlawgametools.com/tutorials/0/images/brushes.jpg)
 
 To draw a tile you first have to select it, to do so just tap it in the tileset and then just tap in the dotted grid to draw it.
 Try creating a map that looks something like this:
 
-[[http://lime.outlawgametools.com/tutorials/0/images/finishedMap.jpg|Finshed Map]]
+![Finished Map](http://lime.outlawgametools.com/tutorials/0/images/finishedMap.jpg)
 
 ### Step 5: Save the map
 
@@ -59,7 +60,7 @@ Once you are happy with your creation you should go ahead and save it, naturally
 
 Before you save you must ensure your map will be in the correct format, currently Lime supports XML and CSV, to change the format select Tiled >> Preferences? to bring up the following window:
 
-[[http://lime.outlawgametools.com/tutorials/0/images/preferences.jpg|alt=Preferences]]
+![Preferences](http://lime.outlawgametools.com/tutorials/0/images/preferences.jpg)
 
 On windows you'll need to select Map >> Map Properties and change the Layer Format drop down list. 
 
@@ -88,7 +89,7 @@ After loading up your map you will not have any visual objects created, this all
 ```
 local visual = lime.createVisual(map)
 ```
-[[http://lime.outlawgametools.com/tutorials/0/images/complete.jpg|alt=Complete]]
+![Complete](http://lime.outlawgametools.com/tutorials/0/images/complete.jpg)
 
 Please remember to update your orientation settings in your build.settings file as this map has been designed for landscape screens.
 
@@ -98,7 +99,7 @@ Congratulations, you just made your first iPhone capable tile map! Does it give 
 
 Resources:
 
-Completed Project: The completed project is now available as part of your download after purchasing Lime.
+Completed Project: `git clone https://github.com/anthonymoralez/lime-tutorials`
 
 Tileset: [Download](http://lime.outlawgametools.com/tutorials/0/resources/tileset-platformer.png)
 
