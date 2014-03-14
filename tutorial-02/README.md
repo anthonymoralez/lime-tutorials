@@ -1,6 +1,6 @@
 NOTE: This tutorial is copied from [the original at OutlawGameTools.com](http://lime.outlawgametools.com/tutorials/00-making-your-first-map/)
 
-## 02 � Taking Advantage of Properties
+## 02 - Taking Advantage of Properties
 
 Difficulty: Beginner
 
