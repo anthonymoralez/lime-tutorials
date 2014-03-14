@@ -1,6 +1,6 @@
 NOTE: This tutorial is copied from [the original at OutlawGameTools.com](http://lime.outlawgametools.com/tutorials/00-making-your-first-map/)
 
-## 02 – Taking Advantage of Properties
+## 02 ï¿½ Taking Advantage of Properties
 
 Difficulty: Beginner
 
@@ -21,7 +21,7 @@ A property is simply a pair of data items, a Name and a Value. Everything in Til
 
 In this tutorial we will add a tile property just to show it working, but I will also list how to add properties to everything else as well.
 
-With your map loaded up in Tiled you can add a property to a tile by right clicking it in the tileset and select Tile Properties… to bring up the Property window:
+With your map loaded up in Tiled you can add a property to a tile by right clicking it in the tileset and select Tile Propertiesï¿½ to bring up the Property window:
 
 ![Property Window](http://lime.outlawgametools.com/tutorials/2/images/propertyWindow.jpg)
 
@@ -69,7 +69,8 @@ end
 
 With the code saved just run your game, you will see something similar to the following in the Terminal:
 
-Complete
+![Complete](http://lime.outlawgametools.com/tutorials/2/images/complete.jpg)
+
 Resources:
 
 Completed Project: `git clone https://github.com/anthonymoralez/lime-tutorials`
