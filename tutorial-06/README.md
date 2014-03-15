@@ -1,6 +1,6 @@
 NOTE: This tutorial is copied from [the original at OutlawGameTools.com](http://lime.outlawgametools.com/tutorials/06-using-objects-to-do-cool-stuff/)
 
-## 06 – Using Objects to Do Cool Stuff
+## 06 ï¿½ Using Objects to Do Cool Stuff
 Difficulty: Beginner
 
 Duration: 20 minutes
@@ -13,7 +13,7 @@ Objects are a very important part of Tiled, they allow you to create things such
 
 Creating an object layer is straight forward, simply right click the Layers panel and select Add Object Layer..., this will create a new blank layer much like we did with tile layers:
 
-![New Layer](http://lime.outlawgametools.com/tutorials/6/images/newObject.jpg)
+![New Layer](http://lime.outlawgametools.com/tutorials/6/images/newLayer.jpg)
 
 ### Step 2: Creating your first object
 
@@ -21,11 +21,11 @@ Object layers can be quite fiddly to work with at first but you will get used to
 
 ![New Object](http://lime.outlawgametools.com/tutorials/6/images/newObject.jpg)
 
-That little grey circle/square icon is your new object, exciting isn’t it?
+That little grey circle/square icon is your new object, exciting isnï¿½t it?
 
 ### Step 3: Giving it some properties
 
-To give your object some properties you will need to once again bring up the Properties window, do so by right clicking the object and selecting Object Properties…
+To give your object some properties you will need to once again bring up the Properties window, do so by right clicking the object and selecting Object Propertiesï¿½
 
 ![Property Window](http://lime.outlawgametools.com/tutorials/6/images/newLayer.jpg)
 
