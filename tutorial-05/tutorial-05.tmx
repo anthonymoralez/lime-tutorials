@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="10" tilewidth="32" tileheight="32" backgroundcolor="#55557f">
+ <tileset firstgid="1" name="tileset-platformer" tilewidth="32" tileheight="32">
+  <image source="tileset-platformer.png" width="192" height="544"/>
+  <tile id="78">
+   <properties>
+    <property name="IsAnimated" value=""/>
+    <property name="animation1" value="count=3,time=1000"/>
+    <property name="animation2" value="count=3,time=3000"/>
+    <property name="sequences" value="animation1,animation2"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="IsAnimated" value=""/>
+    <property name="frameCount" value="3"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="15" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,65,51,52,53,0,0,0,0,0,
+0,85,0,0,0,0,65,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,65,0,0,0,0,0,0,0,0,
+0,79,0,0,0,0,65,0,0,58,0,0,0,0,0,
+0,0,0,0,0,0,65,0,26,27,28,0,0,13,14,
+0,0,0,0,0,0,71,26,32,33,34,29,0,19,20,
+0,0,0,0,0,25,27,32,33,33,33,35,0,19,20,
+4,5,6,0,0,31,33,33,33,33,33,35,0,19,20,
+10,11,12,0,0,31,33,33,33,33,33,35,0,19,20
+</data>
+ </layer>
+</map>
