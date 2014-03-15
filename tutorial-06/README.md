@@ -1,6 +1,6 @@
 NOTE: This tutorial is copied from [the original at OutlawGameTools.com](http://lime.outlawgametools.com/tutorials/06-using-objects-to-do-cool-stuff/)
 
-## 06 � Using Objects to Do Cool Stuff
+## 06 - Using Objects to Do Cool Stuff
 Difficulty: Beginner
 
 Duration: 20 minutes
