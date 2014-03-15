@@ -10,6 +10,7 @@ NOTE: These tutorials are based on [the originals at OutlawGameTools.com](http:/
 - [Tutorial 04 - More Info on TileSets](tutorial-04)
 - [Tutorial 05 - Adding Life Through Animation](tutorial-05)
 - [Tutorial 06 - Using Objects to Do Cool Stuff](tutorial-06)
+- [Tutorial 07 - Making Objects Physical](tutorial-07)
 
 
 ## Running the tutorial code
