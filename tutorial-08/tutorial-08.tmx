@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="15" height="10" tilewidth="32" tileheight="32" backgroundcolor="#55557f">
+<map version="1.0" orientation="orthogonal" width="15" height="10" tilewidth="32" tileheight="32" backgroundcolor="#9c9c9c">
+ <properties>
+  <property name="Physics:DrawMode" value="hybrid"/>
+ </properties>
  <tileset firstgid="1" name="tileset-platformer" tilewidth="32" tileheight="32">
   <image source="tileset-platformer.png" width="192" height="544"/>
-  <tile id="69">
-   <properties>
-    <property name="HasBody" value=""/>
-    <property name="radius" value="20"/>
-   </properties>
-  </tile>
   <tile id="71">
    <properties>
     <property name="HasBody" value=""/>
     <property name="bodyType" value="dynamic"/>
+    <property name="radius" value="16"/>
    </properties>
   </tile>
  </tileset>
@@ -30,13 +28,23 @@
 </data>
  </layer>
  <objectgroup name="Object Layer 1" width="15" height="10">
-  <object name="Hill2" type="Body" x="161" y="318">
+  <object name="Hill1" type="Body" x="1" y="259" width="94" height="64">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
-   <polygon points="0,0 1,-91 64,-90 125,-155 160,-155 190,-122 219,-126 217,-1 115,0"/>
   </object>
-  <object name="Hill1" type="Body" x="0" y="255" width="94" height="64">
+  <object name="Hill2Mid" type="Body" x="226" y="228">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+   <polygon points="0,0 61,-63 99,-63 127,-28 124,93 0,90"/>
+  </object>
+  <object name="Hill2Begin" type="Body" x="163" y="225" width="61" height="95">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object name="Hill2End" type="Body" x="354" y="196" width="25" height="124">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
