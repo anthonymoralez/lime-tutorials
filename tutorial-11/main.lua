@@ -1,5 +1,4 @@
 lime = require("lime.lime")
-pp = require("pp")
 local ui = require("lime.ui")
 
 local physics = require("physics")
@@ -54,6 +53,7 @@ local physical = lime.buildPhysical(map)
 local onButtonLeftEvent = function(event)
   if event.phase == "press" then
     player.direction = DIRECTION_LEFT
+    player.xScale = DIRECTION_LEFT
     player.state = STATE_WALKING
     player:setSequence("anim" .. player.state)
     player:play()
@@ -66,6 +66,7 @@ end
 local onButtonRightEvent = function(event)
   if event.phase == "press" then
     player.direction = DIRECTION_RIGHT
+    player.xScale = DIRECTION_RIGHT
     player.state = STATE_WALKING
     player:setSequence("anim" .. player.state)
     player:play()
