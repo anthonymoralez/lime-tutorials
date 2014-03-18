@@ -12,6 +12,7 @@ NOTE: These tutorials are based on [the originals at OutlawGameTools.com](http:/
 - [Tutorial 06 - Using Objects to Do Cool Stuff](tutorial-06)
 - [Tutorial 07 - Making Objects Physical](tutorial-07)
 - [Tutorial 08 - Complex Physics Objects](tutorial-08)
+- [Tutorial 09 - Controling a Platformer Character's Jump](tutorial-09)
 
 
 ## Running the tutorial code
