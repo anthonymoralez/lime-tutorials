@@ -15,6 +15,7 @@ NOTE: These tutorials are based on [the originals at OutlawGameTools.com](http:/
 - [Tutorial 09 - Controling a Platformer Character's Jump](tutorial-09)
 - [Tutorial 10 - More Work on Platformer Characters](tutorial-10)
 - [Tutorial 11 - Animated Characters](tutorial-11)
+- [Tutorial 12 - Collectible Items](tutorial-12)
 
 
 ## Running the tutorial code
@@ -26,7 +27,6 @@ Setup a tutorial project:
 git clone https://github.com/anthonymoralez/Lime2DTileEngine.git #1
 git clone https://github.com/anthonymoralez/lime-tutorials.git #2
 cp -r Lime2DTileEngine/lime lime-tutorials/tutorial-00/lime #3
-curl -o lime-tutorials/tutorial-00/sprite.lua https://raw.githubusercontent.com/coronalabs/framework-sprite-legacy/master/sprite.lua #4
 ```
 
 1. Clone the lime repository 
