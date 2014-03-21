@@ -17,6 +17,7 @@ NOTE: These tutorials are based on [the originals at OutlawGameTools.com](http:/
 - [Tutorial 11 - Animated Characters](tutorial-11)
 - [Tutorial 12 - Collectible Items](tutorial-12)
 - [Tutorial 13 – Moving a Map via Touch](tutorial-13)
+- [Tutorial 14 – Config Files](tutorial-14)
 
 
 
