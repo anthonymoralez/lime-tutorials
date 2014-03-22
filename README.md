@@ -16,8 +16,9 @@ NOTE: These tutorials are based on [the originals at OutlawGameTools.com](http:/
 - [Tutorial 10 - More Work on Platformer Characters](tutorial-10)
 - [Tutorial 11 - Animated Characters](tutorial-11)
 - [Tutorial 12 - Collectible Items](tutorial-12)
-- [Tutorial 13 – Moving a Map via Touch](tutorial-13)
-- [Tutorial 14 – Config Files](tutorial-14)
+- [Tutorial 13 - Moving a Map via Touch](tutorial-13)
+- [Tutorial 14 - Config Files](tutorial-14)
+- [Tutorial 15 - Building a Platform Game with Corona and Lime](tutorial-15)
 
 
 
@@ -42,4 +43,3 @@ Run it:
 cd lime-tutorials/tutorial-00
 $CORONA_SDK/simulator main.lua
 ```
-
