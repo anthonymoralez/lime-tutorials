@@ -21,6 +21,7 @@ NOTE: These tutorials are based on [the originals at OutlawGameTools.com](http:/
 - [Tutorial 15 - Building a Platform Game with Corona and Lime](tutorial-15)
 - [Tutorial 16 - Complex Objects with Physics Editor](http://lime.outlawgametools.com/tutorials/16-complex-physics-objects-with-physicseditor/)
 - [Tutorial 17 – Adding Depth with Parallax Scrolling](tutorial-17)
+- [Tutorial 18 – Saving Space with Map Formats](tutorial-18)
 
 ## Running the tutorial code
 You need to have [The Corona SDK](http://coronalabs.com/)
