@@ -17,11 +17,11 @@ The map can be found [here](tutorial-19.tmx). It is the same map used in [tutori
 
 The primary unit of the storyboard API is the scene. The scene is a container for each scene in your application. Each scene has a `view` property that will be on screen when the scene is shown. The storyboard API provides functions for switching between scenes. Scenes are referenced by the sceneName. The name can either be the name of the lua module you've created, or the name you passed to [storyboard.newscene](http://docs.coronalabs.com/api/library/storyboard/newScene.html). 
 
-So let's make our first scene. The Corona API docs for [the storyboard API](http://docs.coronalabs.com/api/library/storyboard/index.html) includes a [template](http://docs.coronalabs.com/api/library/storyboard/index.html#scenetemplate.lua) to help with implementing a scene. There is also a copy of scenetemplate.lua in this project. We'll rename that to [startscreen.lua](startscreen.lua). On [this line](startscreen.lua#L24) we add a simple displayObject that will be our background. At this point we have a simple blue background. That's boring. 
+So let's make our first scene. The Corona API docs for [the storyboard API](http://docs.coronalabs.com/api/library/storyboard/index.html) includes a [template](http://docs.coronalabs.com/api/library/storyboard/index.html#scenetemplate.lua) to help with implementing a scene. There is also a copy of [scenetemplate.lua](scenetemplate.lua) in this project. We'll rename that to [startscreen.lua](startscreen.lua). On [this line](startscreen.lua#L25) we add a simple displayObject that will be our background. At this point we have a simple blue background. That's boring. 
 
 ### Step 3: Switching scenes
 
-Transitioning from one scene to the next is straight forward: use [storyboard.gotoScene](http://docs.coronalabs.com/api/library/storyboard/gotoScene.html). The optional `options` parameter is allows you to pass information from one scene to the next via the `params` member. You can also specify transition effects like we do [on this line](startscreen.lua#L31).
+Transitioning from one scene to the next is straight forward: use [storyboard.gotoScene](http://docs.coronalabs.com/api/library/storyboard/gotoScene.html). The optional `options` parameter is allows you to pass information from one scene to the next via the `params` member. You can also specify transition effects like we do [on this line](startscreen.lua#L33).
 
 ### Step 4: Loading lime inside a scene
 
@@ -48,7 +48,7 @@ function scene:overlayBegan( event )
 end
 
 function scene:overlayEnded( event )
-  platform.resume()
+  platform.resumeGame()
 end
 
 ```
